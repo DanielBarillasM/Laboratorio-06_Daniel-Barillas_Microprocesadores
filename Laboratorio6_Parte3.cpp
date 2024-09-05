@@ -1,5 +1,6 @@
 // -------------------------------------------------------------------------------------------------
-// Nombre: Pablo Daniel Barillas Moreno
+// Nombre del integrante: Pablo Daniel Barillas Moreno. Carné No. 22193
+// Nombre del integrante: André Emilio Pivaral López. Carné No. 23574
 // Universidad: Universidad del Valle de Guatemala
 // Versión: 1.0
 // Fecha: 05/09/2024
