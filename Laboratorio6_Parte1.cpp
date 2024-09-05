@@ -1,3 +1,19 @@
+// -------------------------------------------------------------------------------------------------
+// Nombre del integrante: Pablo Daniel Barillas Moreno. Carné No. 22193
+// Nombre del integrante: André Emilio Pivaral López. Carné No. 23574
+// Universidad: Universidad del Valle de Guatemala
+// Versión: 1.0
+// Fecha: 05/09/2024
+// Curso: Programación de microprocesadores
+// Programa: Cálculo Paralelo de Números de Fibonacci con Pthreads
+// Descripción: Este programa utiliza la biblioteca de Pthreads para calcular de manera paralela los 
+//              números de Fibonacci en un rango dado por el usuario. El programa solicita un número 
+//              entre 0 y 100, y luego crea un hilo que calcula todos los números de Fibonacci hasta 
+//              el número indicado. El programa asegura la exclusión mutua en el acceso a los datos 
+//              utilizando un mutex. Finalmente, se imprimen los números de Fibonacci encontrados y 
+//              se calcula su suma total.
+// -------------------------------------------------------------------------------------------------
+
 #include <iostream>   // Incluye la biblioteca estándar para entrada y salida.
 #include <pthread.h>  // Incluye la biblioteca de Pthreads para trabajar con hilos.
 #include <vector>     // Incluye la clase vector de C++ para usar contenedores dinámicos.
