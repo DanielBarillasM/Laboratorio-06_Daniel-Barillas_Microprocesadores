@@ -1,3 +1,17 @@
+// -------------------------------------------------------------------------------------------------
+// Nombre: Pablo Daniel Barillas Moreno
+// Universidad: Universidad del Valle de Guatemala
+// Versión: 1.0
+// Fecha: 05/09/2024
+// Curso: Programación de microprocesadores
+// Programa: Cálculo Paralelo de Series con Pthreads
+// Descripción: Este programa utiliza la biblioteca de Pthreads para calcular de manera paralela la 
+//              suma de una serie alternante definida por (-1)^(n+1) / n para valores de n positivos. 
+//              El usuario ingresa un valor máximo de n, y el programa crea un hilo para calcular 
+//              cada término de la serie. Se asegura la protección del acceso a la suma total usando 
+//              un mutex, y se imprime el resultado al final de la ejecución.
+// -------------------------------------------------------------------------------------------------
+
 #include <iostream>
 #include <pthread.h>
 #include <vector>
